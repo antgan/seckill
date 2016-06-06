@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+	<!-- 配置全局属性 -->
+	<settings>
+		<!-- 使用jdbc的getGeneratedKeys 获取数据库自增值 -->
+		<setting name="useGeneratedKeys" value="true"/>
+		<!-- 使用列的别名替换列名，默认为：true -->
+		<setting name="useColumnLabel" value="true"/> 
+		<!-- 开启驼峰命名转换 ,下划线命名法自动转换成驼峰命名法， 如start_time->startTime -->
+		<setting name="mapUnderscoreToCamelCase" value="true"/>
+	</settings>
+</configuration>
